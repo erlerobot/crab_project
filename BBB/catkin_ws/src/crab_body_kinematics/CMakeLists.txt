@@ -4,8 +4,8 @@ project(crab_body_kinematics)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
+find_package(orocos_kdl)
 find_package(catkin REQUIRED COMPONENTS
-  orocos_kdl
   kdl_parser
   roscpp
   rospy
